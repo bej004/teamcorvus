@@ -1,0 +1,147 @@
+html {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 16px;
+	background-color: #F2F2F2;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+}
+
+.content {
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.topbar.container {
+	background-color: #424B50;
+	color: white;
+}
+
+.header.container {
+	background-color: #F2F2F2;
+	color: #1989CA;
+	border-bottom: 1px silver solid;
+}
+
+.footer.container {
+	background-color: #F2F2F2;
+	color: #1989CA;
+	border-top: 1px silver solid;
+}
+
+.footer p {
+	margin: 0;
+	padding: 1.5em 0;
+}
+
+.topbar p {
+	margin: 0;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 15px 0;
+	text-transform: uppercase;
+}
+
+nav {
+	font-family: Helvetica, Arial, Sans-Serif;
+	text-transform: uppercase;
+	color: black;
+	font-size: 0.9rem;
+}
+
+nav ul {
+    list-style-type: none;    
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+	display: inline;	
+	padding: 0;	
+}
+
+nav li a {
+	padding: 1px 5px;
+}
+
+nav li a:link {
+	text-decoration: none;		
+}
+
+nav li a.selected {
+	background-color: white;
+    border: 1px solid silver;	    
+    border-bottom: 1px solid white;
+	color: black;	
+}
+
+#toc {
+	width: 50%;
+	margin: 1em;	
+	border: 1px solid silver;
+	background-color: #F0F7FF;
+	padding: 1em;
+	list-style-type: none;
+}
+
+#toc a:link, #toc a:visited, #toc a:hover {
+	
+	color: black;
+}
+
+table {
+	width: 65%;
+	margin: 1em;
+	padding: 0;
+	border: 1px silver solid;
+}
+
+tr {
+	border: 1px silver solid;
+}
+
+tr.sub-heading {
+	background-color: #F0F7FF;
+}
+
+th {
+	background-color: #E0E8F0;
+}
+
+td, th{
+	border: 1px silver solid;
+	padding: 0.5rem;
+}
+
+figure {
+	display: inline;
+	margin: auto;	
+}
+
+figure img {
+	margin: auto;
+}
+
+td ul {
+	list-style-type: none;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 1rem;
+}
+
+figure.wireframe img{
+	max-width: 70%;
+}
+
+
+
+
+
+
+
