@@ -1,6 +1,6 @@
 html {
 	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 16px;
+	font-size: 14px;
 	background-color: #F2F2F2;
 }
 
@@ -22,6 +22,7 @@ body {
 .header.container {
 	background-color: #F2F2F2;
 	color: #1989CA;
+	padding: 0;
 	border-bottom: 1px silver solid;
 }
 
@@ -50,13 +51,14 @@ nav {
 	font-family: Helvetica, Arial, Sans-Serif;
 	text-transform: uppercase;
 	color: black;
-	font-size: 0.9rem;
+	font-size: 1rem;	
+	padding: 0;
 }
 
 nav ul {
     list-style-type: none;    
     padding: 0;
-    margin: 0;
+    margin: 0;    
 }
 
 nav li {
@@ -65,7 +67,7 @@ nav li {
 }
 
 nav li a {
-	padding: 1px 5px;
+	padding: 4px 4px 1px;
 }
 
 nav li a:link {
@@ -117,26 +119,28 @@ td, th{
 	padding: 0.5rem;
 }
 
-figure {
-	display: inline;
-	margin: auto;	
-}
-
-figure img {
-	margin: auto;
-}
-
 td ul {
 	list-style-type: none;
 }
 
-figcaption {
-	text-align: center;
-	font-size: 1rem;
+figure {	
+	display: inline-block;
+	margin: auto;	
+	margin: 10px;	
 }
 
-figure.wireframe img{
-	max-width: 70%;
+figcaption {
+	text-align: center;
+	font-size: 1rem;	
+}
+
+figure.wireframe {
+	width: 45%;
+}
+
+figure.wireframe img {
+	margin: auto;
+	width: 100%;
 }
 
 

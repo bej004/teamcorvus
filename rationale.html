@@ -2,6 +2,7 @@
 <html>
 <header>
   <title>Project Rationale</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
   <link rel="stylesheet" href="styles/style.css" />  
 </header>
 <body>
@@ -14,7 +15,6 @@
   </div> <!-- .topbar container -->
 
   <div class="header container">
-
     <div class="header content">
       <h1>Team Corvus<small> | Final Project</small></h1>
       <nav>
@@ -40,39 +40,43 @@
   </ul>
   
   <h2 id="design-decisions">Design Decisions</h2>
-  <p>After group consultation, the design of the redesigned website was based on the following points</p>
+  <p>During an initial group consultation, we explored the existing BCIT site, analyzed the requirements of the redesigned site, and decided on the following design principles.</p>
   <ul>
-    <li>Ease of access to the lecture notes</li>
+    <li>Users want easy and direct access to lecture notes</li>
+    <li>A drop-down menu provides access to lecture notes in one click</li>
+    <li>Many users will access site from a mobile device, therefore site must be responsive</li>
+    <li>Users will want to print lecture notes, therefore a print stylesheet is required</li>
+    <li>The <a href="https://jqueryui.com/accordion/">Accordian</a> jQuery plugin will allow users to display and hide sections in order to aid learning</li>
+    <li>Contact details for the lecturer should be readily available on each page</li>
+    <li>HTML and CSS is to comply with web development standards</li>
   </ul>
   <h2 id="wireframes">Wireframes</h2>
+  <p>The following wireframes were decided upon prior to site development.</p>
   <figure class="wireframe">
     <img src="images/wireframe-home.png">
-    <figcaption>Wireframe for COMP-1950 homepage</figcaption>
+    <figcaption>Homepage Wireframe</figcaption>
   </figure>
   <figure class="wireframe">
     <img src="images/wireframe-content.png">
-    <figcaption>Wireframe for COMP-1950 Content Pages</figcaption>
+    <figcaption>Content Page Wireframe</figcaption>
   </figure>
-  <h2 id="sitemap">Sitemap</h2>
-    <p>
+  <h2 id="sitemap">Sitemap</h2>    
     <figure>
       <img src="images/sitemap.png">
-      <figcaption>COMP-1950 Site Redesign Sitemap</figcaption>
+      <figcaption>Redesign Sitemap</figcaption>
     </figure>
   <h2 id="responsibilities">Responsibilities</h2>
-  <p>The following table summarises the work that each team member completed</p>
+  <p>The following table summarises how project tasks were allocated between team members.</p>
   <table>
     <tr><th>Task</th><th>Team Member</th></tr>
     <tr class="sub-heading"><td colspan="2">Design</td></tr>
     <tr><td>Summarise requirements, Decide on design</td><td>Amin, Fei, Beau</td></tr>
     <tr class="sub-heading"><td colspan="2">Development</td></tr>
-    <tr><td>Protosite homepage and lecture page</td><td>Amin</td></tr>
+    <tr><td>Protosite homepage and lecture pages</td><td>Amin</td></tr>
     <tr><td>Blog template (using Tumblr)</td><td>Fei</td></tr>
     <tr><td>Project website (excluding protosite), Metasite</td><td>Beau</td></tr>
     <tr><td>Stylesheets</td><td></td></tr>
-  </table>
-  
-
+  </table>  
 
     </div> <!-- .body.content -->
   </div> <!-- .body.container -->
