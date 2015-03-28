@@ -17,16 +17,16 @@ header ul li
 {
 	display: inline-block;
 	color: white;
-	font: 24px impact;
-	
+	font: 15px Impact;
+	padding-bottom: -5px;
 }
 
 header ul li a:link
 {
 	display: inline-block;
 	color: white;
-	font: 24px impact;
-	padding: 20px;
+	font: 20px Impact;
+	padding: 10px 20px 0px 10px;
 	text-decoration: none;
 }
 
@@ -34,8 +34,8 @@ header ul li a:visited
 {
 	display: inline-block;
 	color: white;
-	font: 24px impact;
-	padding: 20px;
+	font: 20px Impact;
+	padding: 10px 20px 0px 10px;
 	text-decoration: none;
 }
 
@@ -43,14 +43,15 @@ header ul li a:hover
 {
 	display: inline-block;
 	color: yellow;
-	font: 24px impact;
-	padding: 20px;
+	font: 20px Impact;
+	padding: 10px 20px 0px 10px;
 	text-decoration: none;
 }
 
 header ul li:hover ul
 {
 	display: block;
+	
 	
 }
 
@@ -70,12 +71,12 @@ header ul ul
 
 header ul ul a:link
 {
-	font-size: 20px;
+	font-size: 15px;
 }
 
 header ul ul a:visited
 {
-	font-size: 20px;
+	font-size: 15px;
 }
 
 
@@ -83,6 +84,7 @@ header ul ul li
 {
 	
 	display: block;
+	
 	
 }
 
@@ -106,11 +108,12 @@ section
 #accordion
 {
 	z-index: 0;
+	background: #003C79;
 }
 
 #accordion h2
 {
-	font: 30px Impact;
+	font: 20px Impact;
 }
 
 .size

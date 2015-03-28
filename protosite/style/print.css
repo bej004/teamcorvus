@@ -1,0 +1,13 @@
+@media print{
+
+#accordion > *
+{
+	display: block !important;
+}
+
+#banner img
+{
+	display: none;
+}
+
+}

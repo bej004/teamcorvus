@@ -1,0 +1,8 @@
+@media print{
+
+#accordion > *
+{
+	display: block !important;
+}
+
+}
