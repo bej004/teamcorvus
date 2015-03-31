@@ -91,7 +91,6 @@ nav li a.selected {
 }
 
 #toc a:link, #toc a:visited, #toc a:hover {
-	
 	color: black;
 }
 
@@ -142,10 +141,3 @@ figure.wireframe img {
 	margin: auto;
 	width: 100%;
 }
-
-
-
-
-
-
-
